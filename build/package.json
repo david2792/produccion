@@ -1,0 +1,28 @@
+{
+  "name": "api_referenciales",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "conver": "tsc -w",
+    "dev": "nodemon build/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/cors": "^2.8.6",
+    "@types/express": "^4.17.6",
+    "@types/morgan": "^1.9.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "morgan": "^1.10.0",
+    "promise-mysql": "^3.3.2"
+  },
+  "devDependencies": {
+    "@types/jsonwebtoken": "^8.5.0",
+    "nodemon": "^2.0.4"
+  }
+}
